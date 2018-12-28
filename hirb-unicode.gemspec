@@ -14,8 +14,8 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "hirb-unicode"
 
-  s.add_dependency 'hirb', '~> 0.5'
-  s.add_dependency 'unicode-display_width', '~> 0.1.1'
+  s.add_dependency 'hirb', '~> 0.7.3'
+  s.add_dependency 'unicode-display_width', '~> 1.0',  '>= 1.0.1'
   # Use the same test utility as `hirb`
   s.add_development_dependency 'bacon', '>= 1.1.0'
   s.add_development_dependency 'mocha', '~> 0.12.1'
