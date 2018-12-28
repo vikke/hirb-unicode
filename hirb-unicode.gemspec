@@ -18,8 +18,8 @@ Gem::Specification.new do |s|
   s.add_dependency 'unicode-display_width', '~> 0.1.1'
   # Use the same test utility as `hirb`
   s.add_development_dependency 'bacon', '>= 1.1.0'
-  s.add_development_dependency 'mocha'
-  s.add_development_dependency 'mocha-on-bacon'
+  s.add_development_dependency 'mocha', '~> 0.12.1'
+  s.add_development_dependency 'mocha-on-bacon', '~> 0.2.1'
   s.add_development_dependency 'bacon-bits'
   s.add_development_dependency 'rake'
 
